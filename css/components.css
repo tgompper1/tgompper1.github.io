@@ -1,0 +1,135 @@
+.small-button{
+    width: 142px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #336;
+    color: #FFFCFA;
+}
+
+.big-button{
+    width: 222px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #336;
+    color: #FFFCFA;
+}
+
+.accordion {
+    background-color: #CBCBF5;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.active, .accordion:hover {
+    background-color: #cbc2d2; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #B0B0D9;
+    overflow: hidden;
+    text-align: center;
+}   
+
+.emphasis {
+    text-align:center;
+    background-color: #B0B0D9; 
+    padding: 15px;
+}
+
+.float-container {
+    /* border: 3px solid #fff;
+    padding: 20px; */
+    background-color: #FFFCFA;
+    height: 90%;
+}
+
+.float-child-menu{
+    display: block;
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.small-screen-links{
+    display: none;
+}
+
+.float-child-content{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+    display:flex;
+    
+    height: 100%;
+} 
+
+/* .menu-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+} */
+
+.info-scroll{
+    margin: 0 auto;
+    background-color: #FFFCFA;
+    border-radius: 15px;
+    /* width: 775px; */
+    height: 95%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+    color: #336;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    height:100%;
+}
+/* 
+html {
+    scroll-behavior: smooth;
+} */
+
+.links {
+    text-decoration: none;
+    color: #FFFCFA;
+}
+
+.links-hidden{
+    text-decoration: none;
+    color: #FFFCFA;
+}
+
+@media screen and (max-width: 960px) {
+    .float-child-menu{
+        display: none;
+    }
+    .float-child-content{
+        width: 100%;
+    } 
+    .small-screen-links{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

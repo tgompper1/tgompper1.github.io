@@ -1,1 +1,868 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+                
+        <title>Tess Gompper | Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="images/logo-color.png">
+            
+        <style type="text/css">
+            @import url("css/comsStyles.css");
+            @import url("css/experienceStyles.css");
+            @import url("css/aboutStyles.css");
+            @import url("css/projectStyles.css");
+            @import url("css/components.css");
+            @import url("css/responsive.css");
+            @import url("css/scrollbar.css");
+        </style>
+    </head>
+    <body style="background-color: #FFFCFA;">
+        <div class="float-container">
+            <div class="float-child-menu">
+                <div>
+                    <img src="./images/logo-color.png"  width="200" height="200" alt="Tess Logo"></img><br></br>
+                    <button class="big-button" onClick="document.getElementById('about').scrollIntoView('smooth');">ABOUT ME</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('exp').scrollIntoView('smooth');">EXPERIENCE</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('projs').scrollIntoView('smooth');">PROJECTS</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('coms').scrollIntoView('smooth');">COMMUNICATION STUDIES</button><br></br>
+                    <button class="small-button"> <a class="links" target="_blank" href="https://www.linkedin.com/in/tess-gompper/">LINKEDIN</a></button><br></br>
+                    <button class="small-button"><a class="links" target="_blank" href="https://github.com/tgompper1">GITHUB</a></button><br></br>
+                    <button class="small-button"><a class="links" target="_blank" href="./public/resume.pdf">RESUME</a></button>
+                </div>
+            </div>
+            <div class="small-screen-links">
+                <button class="small-button"> <a class="links" target="_blank" href="https://www.linkedin.com/in/tess-gompper/">LINKEDIN</a></button><br></br>
+                &nbsp;
+                <button class="small-button"><a class="links" target="_blank" href="https://github.com/tgompper1">GITHUB</a></button><br></br>
+                &nbsp;
+                <button class="small-button"><a class="links" target="_blank" href="./public/resume.pdf">RESUME</a></button>
+            </div>
+            <div class="float-child-content">
+                <div class="info-scroll">
+                    <div id="about" class="about-container">
+                        <table class="about-table">
+                            <tr>
+                                <td colspan="1">
+                                    <img src="./images/tess-headshot.jpg"  width="159" height="159" alt="Tess" style="border-radius: 100px;"></img>
+                                    <h3 style="text-align: center;">About Me</h3>
+                                </td>
+                                <td colspan="2" style="border-radius: 25px; background: #CBCBF5;"> 
+                                    <div class="about-container">
+                                        <p>
+                                            Tess is a fourth year Computer Science Student at McGill University. 
+                                            She is completing her BA in Computer Science with a minor in Communication Studies and 
+                                            a supplementary minor in Computer Science. Tess chose to minor in communication studies 
+                                            to learn about communication technologies and their impact on culture throughout history 
+                                            as well as to learn how to think critically about the technologies that surround us. 
+                                            Tess will be working as a Data Engineer at 84.51° in Chicago beginning in June 2024.
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="emphasis">
+                                        <button class="accordion">Education</button>
+                                        <div class="panel">
+                                            <p>
+                                                McGill University 2020-2024</br>
+                                                BA Computer Science</br>
+                                                Supplementary Minor in Computer Science</br>
+                                                Minor in Communication Studies</br>
+                                            </p>
+                                        </div>
+                    
+                                        <button class="accordion">Techincal Skills</button>
+                                        <div class="panel">
+                                            <p>Java, Python, C++, C, HTML, CSS, JavaScript, SQL, PySpark</p>
+                                        </div>
+                    
+                                        <button class="accordion">Interpersonal Skills</button>
+                                        <div class="panel">
+                                            <p>Leadership, Costumer Service, Team work, Communication</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            
+                        </table>
+                    </div>
+                    <div id="exp" class="experience-scroll">
+                        <!-- <div className="experience-scroll"> -->
+                            <table class="experience-table">
+                                <tr> <h1 class="experience-h1-hidden">EXPERIENCE</h1></tr>
+                                <tr>
+                                    <td rowspan="3"><h1 class="experience-h1 title-td">EXPERIENCE</h1></td>
+                                    <td>
+                                            <div class="experience-container">
+                                                <div class="experience">
+                                                    <div class="experience-front" style="background-color: #532182;">
+                                                        <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                    </div>
+                                                    <div class="experience-back">
+                                                        <p> <b>Engineer</b><br></br>
+                                                            June 2024<br>
+                                                            Chicago, IL, USA <br>
+                                                            Incoming engineer in the Development Program
+                                                        </div>
+                                                </div>
+                                            </div>
+                                    </td>
+                                    <td>  
+                                            <div class="experience-container">
+                                                <div class="experience">
+                                                    <div class="experience-front" style="background-color: #532182;">
+                                                        <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                    </div>
+                                                    <div class="experience-back">
+                                                        <p> <b>Data Engineer Intern</b><br></br>
+                                                            May 2023 - Aug 2023<br>
+                                                            Chicago, IL, USA <br>
+                                                            Worked with the Media Analytics Campaign Measurement and Visualization Teams
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </td>
+                                    <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #532182;">
+                                                    <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Software Engineer Intern</b><br></br>
+                                                        May 2022 - Aug 2022<br>
+                                                        Chicago, IL, USA <br>
+                                                        Worked on the Data Observability team.<br>
+                                                        Created data quality checks as well as a general abstract check to simplify the check creation process.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front">
+                                                    <img src="./images/mcwics_logo.png"  width="200" height="200" alt="mcwics"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>VP Community</b><br></br>
+                                                        April 2022 - Present<br>
+                                                        Montreal, QC, CAN <br>
+                                                        Organized events for the greater McGill women in computer 
+                                                        science community and internal team bonding activities for club executives.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td >
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #B60637; padding-top: 25px; height: 175px;" >
+                                                    <img src="./images/sweetwaters_logo.png"  width="150" height="150" alt="sweetwaters"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Barista & Social Media Manager</b><br></br>
+                                                        April 2021 - January 2022<br>
+                                                        Ann Arbor, MI, USA </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front">
+                                                    <img src="./images/ford_logo.png"  width="200" height="200" alt="ford"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Product Management Intern</b><br></br>
+                                                        June 2019 - August 2019<br>
+                                                        Dearborn, MI, USA <br>
+                                                        IT Product Management, high school intern. <br>
+                                                        Researched and created a business plan for an in-app, 
+                                                        self-help feature for the FordPass app
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        <!-- </div> -->
+                    </div>
+                    <div id="projs" class="projects-section">
+                        <h1>PROJECTS</h1>
+                        <div class="emphasis">
+                            <button class="accordion"><b>Open Windows vs AC Calculator</b></button>
+                            <div class="panel">
+                                <p>
+                                    JULY 2021<br>
+                                    <i>Java, Android Studio, JSON</i><br></br>
+                                    Inspired by my dad, this app uses indoor and outdoor temperatures and humidities to calculate 
+                                    whether you should turn on the air conditioning and close the windows, or turn off the air 
+                                    conditioning and open the windows. For this project I created a simple user interface using 
+                                    Android Studio and programmed all the calculations necessary. In order to get the correct 
+                                    response I converted a spreadsheet of water densities into a JSON file and used a 
+                                    JSONObjectREquest and a URL to access the data. Although the calculations were simple, 
+                                    learning how to read and navigate large JSON files from a URL made this an exciting and 
+                                    challenging project! See on 
+                                    <a target="_blank" href="https://github.com/tgompper1/WindowsOpenCalculator">Github</a>.
+                                </p>
+                            </div>
+                            <button class="accordion"><b>Personal Portfolio Website</b></button>
+                            <div class="panel">
+                                <p>
+                                    Fall 2023<br>
+                                    <i>HTML, CSS, JavaScript</i><br></br>
+                                    See on 
+                                    <a target="_blank" href="https://github.com/tgompper1/tgompper1.github.io">Github</a>.
+                                </p>
+                            </div>
+                            <button class="accordion"><b>McGill PULS Council Website</b></button>
+                            <div class="panel">
+                                <p>
+                                    Dec-Nov 2023<br>
+                                    <i>MERN Stack (MongoDB, Express, React, Node.js), HTML, Javascript, CSS</i><br></br>
+                                    Created an updated and revamped website for the McGill Physiology Undergraduate League of Students 
+                                    Council for the COMP307: Web Development end of term group project. The site features login functionality 
+                                    with seperate public and administrator views and capabilities. Admin can log in and create/delete/edit events 
+                                    and blog posts. <br></br> 
+                                    See here
+                                    <a target="_blank" href="https://puls.netlify.app">puls.netlify.app</a>.
+                                </p>
+                            </div>
 
+                            <!-- <button class="accordion">PROJECT 3</button>
+                            <div class="panel"></div> -->
+                        </div>
+                    </div>
+                    <div id="coms" class="coms-section">
+                        <div class="coms-scroll">
+                            <h1>Communications Studies Papers Archive</h1>
+                            <table class="coms-table">
+                                <tr>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>On Fundamental Change in Re-Recordings</i><br></br>
+                                                        COMS362: Bad Music <br></br>
+                                                        Fall 2023
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "...Although both active pop singers, Cabello and Stromae boast vastly different styles and
+                                                        hail from very different regions. We may wonder how the two ended up working together but the
+                                                        crossover is not as spontaneous and random as we may assume...."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/on_fundamental_change_in_re_recordings.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Not All Critics are Creators</i><br></br>
+                                                        COMS362: Bad Music <br></br>
+                                                        Fall 2023
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "...Weaver Beats’ shift
+                                                        from music critic to creator has presented us with an opportunity to ask whether the ability to
+                                                        qualify music as good or bad gives you the ability to create good music of your own..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/not_all_critics_are_creators.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Notion AI: Redefining the Ideal User</i><br></br>
+                                                        COMS340: New Media <br></br>
+                                                        Spring 2023
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "With just the click of a button, users can delegate “anything” to the AI, 
+                                                        perfectly embodying North America’s work-based
+                                                        culture."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/notion_ai.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Libby, OverDrive, and the Physical Library</i><br></br>
+                                                        COMS340: New Media <br></br>
+                                                        Spring 2023
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "...I will be considering the public library as residual compared to
+                                                        Libby’s emerging status to analyze Libby’s meaningless conformities that could be bypassed by
+                                                        its digital format..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/libby_overdrive_and_the_physical_library.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>The Intersection of Twitter and the Pro-Oil Movement</i><br></br>
+                                                        COMS330: Media in Cultural Life <br></br>
+                                                        Spring 2022
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "...The key motivator for interacting with misinformative posts, 
+                                                        or posts in general, is the desire to strengthen one’s
+                                                        position within a group of like-minded people..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/the_intersection_of_twitter_and_the_pro_oil_movement.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Lake Louise and Tourism Infrastructure (Not Pictured)</i><br></br>
+                                                        COMS300: Media and Modernity <br></br>
+                                                        Fall 2021
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "In analyzing the relationship between destination, the sublime, infrastructure, 
+                                                        and circulating representations, we can see the effect this
+                                                        relationship has on tourists and the tourist experience at Lake Louise..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/lake_louise_and_tourism_infrastructure.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Roosevelt, the Radio, and Fireside Chats</i> <br></br>
+                                                        COMS200: History of Communications <br></br>
+                                                        Spring 2021
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "...Roosevelt took a personal and comforting approach to inform his citizens as well as to make them feel confident in his 
+                                                        leadership and personally close to him in a time when leaders had been distancing themselves 
+                                                        from the public..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/roosevelt_the_radio_and_fireside_chats.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>America, How do You Suck?</i> <br></br>
+                                                        COMS210: Intro to Communication Studies <br></br>
+                                                        Fall 2020
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "Although the company received much praise on social media for their many celebrity cameos, it
+                                                        didn’t take long for a specific demographic of viewers to criticize the commercial’s 
+                                                        catchphrase..."
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/america_how_do_you_suck.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="coms-container">
+                                            <div class="coms">
+                                                <div class="coms-front">
+                                                    <p>
+                                                        <i>Sabra Hummus Super Bowl Commercial and the Labour that Went into it</i> <br></br>
+                                                        COMS210: Intro to Communication Studies <br></br>
+                                                        Fall 2020
+                                                    </p>
+                                                </div>
+                                                <div class="coms-back">
+                                                    <p>
+                                                        "By including 19 cameos in their ad, Sabra gained access to and indirectly employed the vast fanbase
+                                                        behind each celebrity to bolster circulation and create a widespread dialogue on social media"
+                                                    </p>
+                                                    <a class="papers" target="_blank" href="./public/papers/sabra_super_bowl_commercial.pdf">Click</a> to read more!
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </body> 
+    <!-- <body style="background-color: #FFFCFA;">
+        <table>
+            <tr>
+                <td width="50" style="overflow:hidden; border-right:0.25rem solid #336; align-items: center; text-align: center;vertical-align: top;
+                top: 3px; left:0">
+                    <img src="./images/logo-color.png"  width="250" height="250" alt="Tess Logo"></img><br></br>
+                    <button class="big-button" onClick="document.getElementById('about').scrollIntoView();">ABOUT ME</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('exp').scrollIntoView();">EXPERIENCE</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('projs').scrollIntoView();">PROJECTS</button><br></br>
+                    <button class="big-button" onclick="document.getElementById('coms').scrollIntoView();">COMMUNICATION STUDIES</button><br></br>
+                    <button class="small-button"> <a target="_blank" href="https://www.linkedin.com/in/tess-gompper/">LINKEDIN</a>.</button><br></br>
+                    <button class="small-button"><a target="_blank" href="https://github.com/tgompper1">GITHUB</a>.</button><br></br>
+                    <button class="small-button"><a target="_blank" href="./public/resume.pdf">RESUME</a></button>
+                </td>
+                <td width="750">
+                    <div class="scrollable">
+                        <div id="about" class="about-container">
+                            <table class="about-table">
+                                <tr>
+                                    <td colspan="1">
+                                        <img src="./images/tess-headshot.jpg"  width="159" height="159" alt="Tess" style="border-radius: 100px;"></img>
+                                        <h3 style="text-align: center;">About Me</h3>
+                                    </td>
+                                    <td colspan="2" style="border-radius: 25px; background: #CBCBF5;"> 
+                                        <div class="about-container">
+                                            <p>
+                                                Tess is a fourth year Computer Science Student at McGill University. 
+                                                She is completing her BA in Computer Science with a minor in Communication Studies and 
+                                                a supplementary minor in Computer Science. Tess chose to minor in communication studies 
+                                                to learn about communication technologies and their impact on culture throughout history 
+                                                as well as to learn how to think critically about the technologies that surround us. 
+                                                Tess will be working as a Data Engineer at 84.51° in Chicago beginning in June 2024.
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <div class="emphasis">
+                                            <button class="accordion">Education</button>
+                                            <div class="panel">
+                                                <p>
+                                                    McGill University 2020-2024</br>
+                                                    BA Computer Science</br>
+                                                    Supplementary Minor in Computer Science</br>
+                                                    Minor in Communication Studies</br>
+                                                </p>
+                                            </div>
+                        
+                                            <button class="accordion">Techincal Skills</button>
+                                            <div class="panel">
+                                                <p>Java, Python, C++, C, HTML, CSS, JavaScript, SQL, PySpark</p>
+                                            </div>
+                        
+                                            <button class="accordion">Interpersonal Skills</button>
+                                            <div class="panel">
+                                                <p>Leadership, Costumer Service, Team work, Communication</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                
+                            </table>
+                        </div>
+                        <div id="exp" class="experience-section">
+                            <table class="experience-table">
+                                <tr>
+                                    <th rowspan="2"><h1 class="experience-h1">EXPERIENCE</h1></th>
+                                <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #532182;">
+                                                    <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Engineer</b><br></br>
+                                                        June 2024<br>
+                                                        Chicago, IL, USA <br>
+                                                        Incoming engineer in the Development Program
+                                                    </div>
+                                            </div>
+                                        </div>
+                                </td>
+                                <td>  
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #532182;">
+                                                    <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Data Engineer Intern</b><br></br>
+                                                        May 2023 - Aug 2023<br>
+                                                        Chicago, IL, USA <br>
+                                                        Worked with the Media Analytics Campaign Measurement and Visualization Teams
+                                                </div>
+                                            </div>
+                                        </div>
+                                </td>
+                                <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #532182;">
+                                                    <img src="./images/8451_logo.png"  width="200" height="180" alt="84.51"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Software Engineer Intern</b><br></br>
+                                                        May 2022 - Aug 2022<br>
+                                                        Chicago, IL, USA <br>
+                                                        Worked on the Data Observability team.<br>
+                                                        Created data quality checks as well as a general abstract check to simplify the check creation process.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front">
+                                                    <img src="./images/mcwics_logo.png"  width="200" height="200" alt="mcwics"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>VP Community</b><br></br>
+                                                        April 2022 - Present<br>
+                                                        Montreal, QC, CAN <br>
+                                                        Organized events for the greater McGill women in computer 
+                                                        science community and internal team bonding activities for club executives.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front" style="background-color: #B60637; padding-top: 25px; height: 175px;" >
+                                                    <img src="./images/sweetwaters_logo.png"  width="150" height="150" alt="sweetwaters"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Barista & Social Media Manager</b><br></br>
+                                                        April 2021 - January 2022<br>
+                                                        Ann Arbor, MI, USA </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                <td>
+                                        <div class="experience-container">
+                                            <div class="experience">
+                                                <div class="experience-front">
+                                                    <img src="./images/ford_logo.png"  width="200" height="200" alt="ford"></img>
+                                                </div>
+                                                <div class="experience-back">
+                                                    <p> <b>Product Management Intern</b><br></br>
+                                                        June 2019 - August 2019<br>
+                                                        Dearborn, MI, USA <br>
+                                                        IT Product Management, high school intern. <br>
+                                                        Researched and created a business plan for an in-app, 
+                                                        self-help feature for the FordPass app
+                                                </div>
+                                            </div>
+                                        </div>
+                                </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="projs" class="projects-section">
+                            <h1>PROJECTS</h1>
+                            <div class="emphasis">
+                                <button class="accordion"><b>Open Windows vs AC Calculator</b></button>
+                                <div class="panel">
+                                    <p>
+                                        JULY 2021<br>
+                                        <i>Java, Android Studio, JSON</i><br></br>
+                                        Inspired by my dad, this app uses indoor and outdoor temperatures and humidities to calculate 
+                                        whether you should turn on the air conditioning and close the windows, or turn off the air 
+                                        conditioning and open the windows. For this project I created a simple user interface using 
+                                        Android Studio and programmed all the calculations necessary. In order to get the correct 
+                                        response I converted a spreadsheet of water densities into a JSON file and used a 
+                                        JSONObjectREquest and a URL to access the data. Although the calculations were simple, 
+                                        learning how to read and navigate large JSON files from a URL made this an exciting and 
+                                        challenging project! See on 
+                                        <a target="_blank" href="https://github.com/tgompper1/WindowsOpenCalculator">Github</a>.
+                                    </p>
+                                </div>
+                                <button class="accordion"><b>Personal Portfolio Website</b></button>
+                                <div class="panel">
+                                    <p>
+                                        Fall 2023<br>
+                                        <i>HTML, CSS, JavaScript</i><br></br>
+                                        See on 
+                                        <a target="_blank" href="https://github.com/tgompper1/tgompper1.github.io">Github</a>.
+                                    </p>
+                                </div>
+
+                                <!-- <button class="accordion">PROJECT 3</button>
+                                <div class="panel"></div> 
+                            </div>
+                        </div>
+                        <div id="coms" class="coms-section">
+                            <div class="coms-scroll">
+                                <h1>Communications Studies Papers Archive</h1>
+                                <table class="coms-table">
+                                    <tr>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Not All Critics are Creators</i><br></br>
+                                                            COMS362: Bad Music <br></br>
+                                                            Fall 2023
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "...Weaver Beats’ shift
+                                                            from music critic to creator has presented us with an opportunity to ask whether the ability to
+                                                            qualify music as good or bad gives you the ability to create good music of your own..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/not_all_critics_are_creators.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Notion AI: Redefining the Ideal User</i><br></br>
+                                                            COMS340: New Media <br></br>
+                                                            Spring 2023
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "With just the click of a button, users can delegate “anything” to the AI, 
+                                                            perfectly embodying North America’s work-based
+                                                            culture."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/notion_ai.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Libby, OverDrive, and the Physical Library</i><br></br>
+                                                            COMS340: New Media <br></br>
+                                                            Spring 2023
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "...I will be considering the public library as residual compared to
+                                                            Libby’s emerging status to analyze Libby’s meaningless conformities that could be bypassed by
+                                                            its digital format..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/libby_overdrive_and_the_physical_library.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>The Intersection of Twitter and the Pro-Oil Movement</i><br></br>
+                                                            COMS330: Media in Cultural Life <br></br>
+                                                            Spring 2022
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "...The key motivator for interacting with misinformative posts, 
+                                                            or posts in general, is the desire to strengthen one’s
+                                                            position within a group of like-minded people..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/the_intersection_of_twitter_and_the_pro_oil_movement.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Lake Louise and Tourism Infrastructure (Not Pictured)</i><br></br>
+                                                            COMS300: Media and Modernity <br></br>
+                                                            Fall 2021
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "In analyzing the relationship between destination, the sublime, infrastructure, 
+                                                            and circulating representations, we can see the effect this
+                                                            relationship has on tourists and the tourist experience at Lake Louise..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/lake_louise_and_tourism_infrastructure.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Roosevelt, the Radio, and Fireside Chats</i> <br></br>
+                                                            COMS200: History of Communications <br></br>
+                                                            Spring 2021
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "...Roosevelt took a personal and comforting approach to inform his citizens as well as to make them feel confident in his 
+                                                            leadership and personally close to him in a time when leaders had been distancing themselves 
+                                                            from the public..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/roosevelt_the_radio_and_fireside_chats.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>America, How do You Suck?</i> <br></br>
+                                                            COMS210: Intro to Communication Studies <br></br>
+                                                            Fall 2020
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "Although the company received much praise on social media for their many celebrity cameos, it
+                                                            didn’t take long for a specific demographic of viewers to criticize the commercial’s 
+                                                            catchphrase..."
+                                                        </p>
+                                                        <a target="_blank" href="./papers/america_how_do_you_suck.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="coms-container">
+                                                <div class="coms">
+                                                    <div class="coms-front">
+                                                        <p>
+                                                            <i>Sabra Hummus Super Bowl Commercial and the Labour that Went into it</i> <br></br>
+                                                            COMS210: Intro to Communication Studies <br></br>
+                                                            Fall 2020
+                                                        </p>
+                                                    </div>
+                                                    <div class="coms-back">
+                                                        <p>
+                                                            "By including 19 cameos in their ad, Sabra gained access to and indirectly employed the vast fanbase
+                                                            behind each celebrity to bolster circulation and create a widespread dialogue on social media"
+                                                        </p>
+                                                        <a target="_blank" href="./papers/sabra_super_bowl_commercial.pdf">Click</a> to read more!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+            
+        </script>
+    </body> -->
+</html>
