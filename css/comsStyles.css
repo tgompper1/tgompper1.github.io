@@ -24,8 +24,8 @@
     transform: rotateY(180deg);
 }
 .coms-container, .coms-front, .coms-back {
-    width: 200px;
-    height: 200px;
+    width: 215px;
+    height: 215px;
 }
 .coms-front, .coms-back {
     background: #efe;
